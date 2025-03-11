@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('mabel2.jpg');
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(180, 156, 127);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(187, 163, 163, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: 
+  }
+  
+  .established {
+    text-align: center;
+    color: #777;font-style: italic;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px dashed slategray;
+    margin: 20px 0;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: 
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    color: maroon;
+    font-weight: bold;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .address {
+    color: #777;
+    font-style: italic;
+  }
+  
+  a {
+    color: #00aaff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  h1, h2, p {
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;margin-top: -2px;
+  }
+  h1, h2 {
+    font-family: Impact, serif;
+  }
