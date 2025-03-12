@@ -1,79 +1,99 @@
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('mabel2.jpg');
-    margin: 0;
-    padding: 0;
-  }
-  
-  .menu {
-    width: 80%;
-    margin: 0 auto;
-    background-color: rgb(180, 156, 127);
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(187, 163, 163, 0.1);
-  }
-  
-  h1 {
-    text-align: center;
-    color: 
-  }
-  
-  .established {
-    text-align: center;
-    color: #777;font-style: italic;
-  }
-  
-  hr {
-    border: 0;
-    border-top: 1px dashed slategray;
-    margin: 20px 0;
-  }
-  
-  section {
-    margin-bottom: 20px;
-  }
-  
-  h2 {
-    color: 
-  }
-  
-  .item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-  }
-  
-  .price {
-    color: maroon;
-    font-weight: bold;
-  }
-  
-  .footer {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .address {
-    color: #777;
-    font-style: italic;
-  }
-  
-  a {
-    color: #00aaff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  h1, h2, p {
-    text-align: center;
-  }
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;margin-top: -2px;
-  }
-  h1, h2 {
-    font-family: Impact, serif;
-  }
+  background-image: url('mabel3.jpg');
+  font-family: sans-serif;
+  padding: 20px;background-repeat: repeat;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;margin-top: -25px;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1, h2 {
+  font-family: Impact, serif;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+address {
+  font-style: normal;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
