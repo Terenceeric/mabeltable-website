@@ -39,8 +39,8 @@ img {
 
 hr {
   height: 2px;
-  background-color: brown;
-  border-color: brown;
+  background-color: rgb(54, 7, 7);
+  border-color: rgb(44, 6, 6);
 }
 
 .bottom-line {
